@@ -1,0 +1,14 @@
+@font-face{
+	font-family: Domine;
+	src: url(../font/Domine-Regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	font-family: Domine;
+}
