@@ -15,7 +15,7 @@
 	<main class="container">
 		
 
-		<form action="#" method="post">
+		<form action="include/cadastrar.php" method="post">
 			<div class="md-3">
 				<label for="primeiroNome">Nome</label>
 				<input type="text" name="primeiroNome" id="primeiroNome" maxlength="50" required>
