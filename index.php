@@ -4,18 +4,23 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Meu Site em PHP</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<nav class="d-flex align-items-center flex-column">
-		<h1>Seja Membro</h1>
-		<p>Tornando o mundo mais bem-informado, uma newsletter por vez.</p>
+	<nav id="navbar">
+		<div class="logo">
+			<img src="./images/news-logo.png">
+		</div>
+		<div class="txtMenu">
+			<h1>Seja Membro</h1>
+			<p>Tornando o mundo mais bem-informado, uma newsletter por vez.</p>
+		</div>
 	</nav>
 	<main class="container">
-		
-
+		<h2>Cadastro</h2>	
 		<form action="include/cadastrar.php" method="post">
+			
 			<div class="md-3">
 				<label for="primeiroNome">Nome</label>
 				<input type="text" name="primeiroNome" id="primeiroNome" maxlength="50" required>
@@ -28,14 +33,14 @@
 
 			
 			<div class="md-3">
-				<label for="useremai">Email</label>
+				<label for="useremail">Email</label>
 				<input type="emai" name="useremail" id="useremail">
 			</div>
 
 			
 			<div class="md-3">
 				<label>Escolha sua Newsletter:</label>
-				<select>
+				<select id="opcoes" for="opcoes">
 					<option value="noticias">Notícias</option>
 					<option value="esportes">Esportes</option>
 					<option value="negocios">Negócios</option>
@@ -50,7 +55,6 @@
 			
 			<button type="reset" class="md-3 btn btn-danger">Limpar</button>
 			
-
 		</form>
 	</main>
 
