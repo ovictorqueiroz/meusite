@@ -20,27 +20,27 @@
 	<main class="container">
 		<h2>Cadastro</h2>	
 		<form action="include/cadastrar.php" method="post">
-			
+
 			<div class="md-3">
 				<label for="primeiroNome">Nome</label>
-				<input type="text" name="primeiroNome" id="primeiroNome" maxlength="50" required>
+				<input type="text" name="primeiroNome" id="primeiroNome" maxlength="50" required placeholder="Digite seu primeiro nome" autocomplete="off">
 			</div>
 			
 			<div class="md-3">
 				<label for="sobrenome">Sobrenome</label>
-				<input type="text" name="sobrenome" id="sobrenome" >
+				<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
 			</div>
 
 			
 			<div class="md-3">
 				<label for="useremail">Email</label>
-				<input type="emai" name="useremail" id="useremail">
+				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu melhor email">
 			</div>
 
 			
 			<div class="md-3">
 				<label>Escolha sua Newsletter:</label>
-				<select id="opcoes" for="opcoes">
+				<select id="opcoesTemas" name="opcoesTemas">
 					<option value="noticias">Notícias</option>
 					<option value="esportes">Esportes</option>
 					<option value="negocios">Negócios</option>
