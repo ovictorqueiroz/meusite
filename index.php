@@ -28,13 +28,13 @@
 			
 			<div class="md-3">
 				<label for="sobrenome">Sobrenome</label>
-				<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
+				<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome" autocomplete="off">
 			</div>
 
 			
 			<div class="md-3">
 				<label for="useremail">Email</label>
-				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu melhor email">
+				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu melhor email" autocomplete="off">
 			</div>
 
 			

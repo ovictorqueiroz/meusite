@@ -13,6 +13,11 @@
 	font-family: Domine;
 }
 
+body{
+	background-color: #e4e4e4;
+	color: 	#343131;
+}
+
 nav{
 	color: white;
 	background-color:#343131;
@@ -21,7 +26,8 @@ nav{
 #navbar{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	padding: 10px;
 }
 
 img{
@@ -32,6 +38,13 @@ img{
 .logo{
 	width: 5rem;
 	height: 5rem;
+	position: absolute;
+	left: 0;
+	
+}
+
+.txtMenu{
+	text-align: center;
 }
 
 .container{

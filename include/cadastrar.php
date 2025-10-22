@@ -10,4 +10,6 @@ echo "Seu nome: $primeiroNome <br>";
 echo "Seu sobrenome: $sobrenome <br>";
 echo "Seu seu email: $useremail <br>";
 echo "Sua escolha: $opcoesTemas <br>";
+
+echo'<a href="../index.php">Voltar</a>';
 ?>
