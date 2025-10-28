@@ -19,7 +19,7 @@
 	</nav>
 	<main class="container">
 		<h2>Cadastro</h2>	
-		<form action="include/cadastrar.php" method="post">
+		<form action="pages/cadastrar.php" method="post">
 
 			<div class="md-3">
 				<label for="primeiroNome">Nome</label>
