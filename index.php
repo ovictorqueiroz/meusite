@@ -37,6 +37,15 @@
 				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu melhor email" autocomplete="off">
 			</div>
 
+			<div class="md-3">
+				<label>Sexo</label>
+				<div class="d-flex justify-content-around align-items-center">
+					<input type="checkbox" name="sexoF" id="sexoF"><label>Feminino</label>
+					<input type="checkbox" name="sexoM" id="sexoM"><label>Masculino</label>
+					<input type="checkbox" name="sexoU" id="sexoU"><label>Prefiro não informar</label>
+				</div>
+			</div>
+
 			
 			<div class="md-3">
 				<label>Escolha sua Newsletter:</label>

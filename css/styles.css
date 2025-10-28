@@ -13,6 +13,10 @@
 	font-family: Domine;
 }
 
+form{
+	width: 100%;
+}
+
 body{
 	background-color: #e4e4e4;
 	color: 	#343131;
