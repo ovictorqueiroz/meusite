@@ -34,15 +34,25 @@
 			
 			<div class="md-3">
 				<label for="useremail">Email</label>
-				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu melhor email" autocomplete="off">
+				<input type="emai" name="useremail" id="useremail" placeholder="Digite seu e-mail" autocomplete="off">
 			</div>
 
-			<div class="md-3">
+			<div>
 				<label>Sexo</label>
 				<div class="d-flex justify-content-around align-items-center">
-					<input type="checkbox" name="sexoF" id="sexoF"><label>Feminino</label>
-					<input type="checkbox" name="sexoM" id="sexoM"><label>Masculino</label>
-					<input type="checkbox" name="sexoU" id="sexoU"><label>Prefiro não informar</label>
+					<input type="checkbox" name="sexoM" id="sexo"><label for="sexoM">Masculino</label>
+					<input type="checkbox" name="sexoF" id="sexo"><label for="sexoF">Feminino</label>
+					<input type="checkbox" name="sexoU" id="sexo"><label for="sexoU">Não informar</label>
+				</div>
+			</div>
+
+			<div>
+				<label>Estado Civil</label>
+				<div class="d-flex justify-content-around align-items-center">
+					<input type="radio" name="estadoCivil" id="radioButton" value="Solteiro"><label>Solteiro</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Casado"><label>Casado</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Divorciado"><label>Divorciado</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Viúvo"><label>Viúvo</label>
 				</div>
 			</div>
 
