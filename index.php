@@ -49,24 +49,42 @@
 			<div>
 				<label>Estado Civil</label>
 				<div class="d-flex justify-content-around align-items-center">
-					<input type="radio" name="estadoCivil" id="radioButton" value="Solteiro"><label>Solteiro</label>
-					<input type="radio" name="estadoCivil" id="radioButton" value="Casado"><label>Casado</label>
-					<input type="radio" name="estadoCivil" id="radioButton" value="Divorciado"><label>Divorciado</label>
-					<input type="radio" name="estadoCivil" id="radioButton" value="Viúvo"><label>Viúvo</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Solteiro"><label for="estadoCivil">Solteiro</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Casado"><label for="estadoCivil">Casado</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Divorciado"><label for="estadoCivil">Divorciado</label>
+					<input type="radio" name="estadoCivil" id="radioButton" value="Viúvo"><label for="estadoCivil">Viúvo</label>
 				</div>
 			</div>
 
-			
+			<div>
+				<label>Estado</label>
+				<select name="estados">
+					<option value="SP">São Paulo</option>
+					<option value="MG">Minas Gerais</option>
+					<option value="ES">Espírito Santo</option>
+					<option value="RJ">Rio de Janeiro</option>
+				</select>
+			</div>
+
+
 			<div class="md-3">
 				<label>Escolha sua Newsletter:</label>
 				<select id="opcoesTemas" name="opcoesTemas">
-					<option value="noticias">Notícias</option>
-					<option value="esportes">Esportes</option>
-					<option value="negocios">Negócios</option>
-					<option value="cultura">Cultura</option>
-					<option value="cronicas">Crônicas</option>
-					<option value="gastronomia">Gastronomia</option>
+					<option value="Noticias">Notícias</option>
+					<option value="Esportes">Esportes</option>
+					<option value="Negocios">Negócios</option>
+					<option value="Cultura">Cultura</option>
+					<option value="Cronicas">Crônicas</option>
+					<option value="Fofoca">Fofoca</option>
+					<option value="Gastronomia">Gastronomia</option>
+					<option value="Educação">Educação</option>
+					<option value="Agro">Agronegócio</option>
 				</select>
+			</div>
+
+			<div>
+				<label>Observação</label>
+				<textarea name="obs" cols="65" rows="8"></textarea>
 			</div>
 
 			<button type="submit" class="md-3 btn btn-primary">Enviar</button>

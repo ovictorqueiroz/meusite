@@ -43,5 +43,13 @@ echo "Sexo: $sexoUsuario <br>";
 echo "Estado Civil: $estadoCivil <br>";
 echo "Sua escolha: $opcoesTemas <br>";
 
+if (isset($_POST['estados'])) {
+	echo "Você é de " . $_POST['estados'] . "<br>";
+}
+
+if (isset($_POST['obs'])) {
+	echo "Observação: " . $_POST['obs'] . "<br>";
+}
+
 echo'<a href="../index.php">Voltar</a>';
 ?>
